@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+  <script  src="js/index.js"></script>
+    <script  src="js/index.js"></script>
+    <style src="style.css"></style>
+    <div class="container">
+      <h1 id="title">Microverse Survey Form</h1>
+      <p id="description">This the form for the project in collaboration with mustafa and feyisa.</p>
+        <form id="survey-form" action="">
+          <div>
+            <label for="name" id="name-label"> write your name</label>
+            <br>
+            <input type="text" id="name">
+          </div>
+          <div>
+            <label for="email" id=email-label> write your email </label>
+            <br>
+            <input type="email" id="email">  
+          </div>
+          <div>
+            <label for="number" id="number-label"> write your age</label>
+            <br>
+            <input type="number" id="number" min="10" max="30">  
+          </div>
+          <div>
+            <label for="country" id="country-label"> select your country</label>
+            <br>
+            <select name="country" id="country">
+              <option value="Pakistan">Pakistan</option>
+              <option value="India">India</option>
+              <option value="Ethopia">Ethopia</option>
+              <option value="USA">USA</option>
+            </select>
+          </div>
+          <div>
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <br>
+            <label>
+              <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked/>
+              Definitely
+            </label>
+            <label>
+              <input name="user-recommend" value="No" type="radio" class="input-radio"/>
+              Definitely
+            </label>
+            <label>
+              <input name="user-recommend" value="Might be" type="radio" class="input-radio"/>
+              Definitely
+            </label>
+          </div>
+          <div class="form-group">
+            <p> What course do you want?</p>
+            <br>
+            <label><input name="courses" value="front-end-development" type="checkbox" class="input-checkbox">Front End Development</label>
+            <label><input name="courses" value="back-end-development" type="checkbox" class="input-checkbox">Back End Development</label>
+            <label><input name="courses" value="Full-Stack" type="checkbox" class="input-checkbox">Full Stack Development</label>
+            <label><input name="courses" value="Window application managment" type="checkbox" class="input-checkbox">Window Application Managment</label>
+          </div>
+              <div>
+                <label for="textarea"> Any Comments?</label>
+                <br>
+                <input type="text" name="textarea" id="comment">
+              </div>
+              <br>
+              <button id="submit" value="submit"> submit</button>
+        </form>
+    </div>
+  </body>
+</html>
